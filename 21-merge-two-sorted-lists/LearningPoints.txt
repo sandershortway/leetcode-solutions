@@ -1,0 +1,2 @@
+- You can put continue keyword in while-loop
+- More info on short circuit for if statements

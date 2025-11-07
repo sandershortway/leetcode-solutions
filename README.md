@@ -4,8 +4,8 @@ A collection of my solutions to LeetCode problems. Checkout my [profile](https:/
 
 ## Progress
 
-![Problems Solved](https://img.shields.io/badge/solved-7-brightgreen.svg)
-![Easy](https://img.shields.io/badge/easy-5-success.svg)
+![Problems Solved](https://img.shields.io/badge/solved-8-brightgreen.svg)
+![Easy](https://img.shields.io/badge/easy-6-success.svg)
 ![Medium](https://img.shields.io/badge/medium-2-orange.svg)
 ![Hard](https://img.shields.io/badge/hard-0-red.svg)
 
@@ -18,6 +18,7 @@ A collection of my solutions to LeetCode problems. Checkout my [profile](https:/
 - [13. Roman to Integer](./13-roman-to-integer/)
 - [14. Longest Common Prefix](./14-longest-common-prefix/)
 - [20. Valid Parentheses](./20-valid-parantheses/)
+- [21. Merge Two Sorted Lists](./21-merge-two-sorted-lists/)
 
 ### Medium
 
