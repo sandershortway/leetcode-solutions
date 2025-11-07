@@ -1,0 +1,2 @@
+- Use of std::stack
+- std::vector functions: pop_back and empty
