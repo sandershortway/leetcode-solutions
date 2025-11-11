@@ -4,8 +4,8 @@ A collection of my solutions to LeetCode problems. Checkout my [profile](https:/
 
 ## Progress
 
-![Problems Solved](https://img.shields.io/badge/solved-8-brightgreen.svg)
-![Easy](https://img.shields.io/badge/easy-6-success.svg)
+![Problems Solved](https://img.shields.io/badge/solved-9-brightgreen.svg)
+![Easy](https://img.shields.io/badge/easy-7-success.svg)
 ![Medium](https://img.shields.io/badge/medium-2-orange.svg)
 ![Hard](https://img.shields.io/badge/hard-0-red.svg)
 
@@ -19,8 +19,11 @@ A collection of my solutions to LeetCode problems. Checkout my [profile](https:/
 - [14. Longest Common Prefix](./14-longest-common-prefix/)
 - [20. Valid Parentheses](./20-valid-parantheses/)
 - [21. Merge Two Sorted Lists](./21-merge-two-sorted-lists/)
+- [26. Remove Duplicates from Sorted Array](./26-remove-duplicates-from-sorted-array/)
 
 ### Medium
 
 - [2. Add Two Numbers](./2-add-two-numbers/)
 - [3. Longest Substring Without Repeating Characters](./3-longest-substring-without-repeating-characters/)
+
+### Hard
