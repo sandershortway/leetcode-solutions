@@ -4,9 +4,9 @@ A collection of my solutions to LeetCode problems. Checkout my [profile](https:/
 
 ## Progress
 
-![Problems Solved](https://img.shields.io/badge/solved-10-brightgreen.svg)
+![Problems Solved](https://img.shields.io/badge/solved-11-brightgreen.svg)
 ![Easy](https://img.shields.io/badge/easy-8-success.svg)
-![Medium](https://img.shields.io/badge/medium-2-orange.svg)
+![Medium](https://img.shields.io/badge/medium-3-orange.svg)
 ![Hard](https://img.shields.io/badge/hard-0-red.svg)
 
 ## Solutions
@@ -26,5 +26,6 @@ A collection of my solutions to LeetCode problems. Checkout my [profile](https:/
 
 - [2. Add Two Numbers](./2-add-two-numbers/)
 - [3. Longest Substring Without Repeating Characters](./3-longest-substring-without-repeating-characters/)
+- [5. Longest Palindromic Substring](./5-longest-palindromic-substring/)
 
 ### Hard
