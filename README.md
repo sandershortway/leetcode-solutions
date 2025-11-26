@@ -4,8 +4,8 @@ A collection of my solutions to LeetCode problems. Checkout my [profile](https:/
 
 ## Progress
 
-![Problems Solved](https://img.shields.io/badge/solved-11-brightgreen.svg)
-![Easy](https://img.shields.io/badge/easy-8-success.svg)
+![Problems Solved](https://img.shields.io/badge/solved-12-brightgreen.svg)
+![Easy](https://img.shields.io/badge/easy-9-success.svg)
 ![Medium](https://img.shields.io/badge/medium-3-orange.svg)
 ![Hard](https://img.shields.io/badge/hard-0-red.svg)
 
@@ -21,6 +21,7 @@ A collection of my solutions to LeetCode problems. Checkout my [profile](https:/
 - [21. Merge Two Sorted Lists](./21-merge-two-sorted-lists/)
 - [26. Remove Duplicates from Sorted Array](./26-remove-duplicates-from-sorted-array/)
 - [27. Remove Element](./27-remove-element/)
+- [28. Find the Index of the First Occurrence in a String](./28-find-the-index-of-the-first-occurance-in-a-string/)
 
 ### Medium
 
