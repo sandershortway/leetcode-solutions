@@ -4,8 +4,8 @@ A collection of my solutions to LeetCode problems. Checkout my [profile](https:/
 
 ## Progress
 
-![Problems Solved](https://img.shields.io/badge/solved-13-brightgreen.svg)
-![Easy](https://img.shields.io/badge/easy-10-success.svg)
+![Problems Solved](https://img.shields.io/badge/solved-14-brightgreen.svg)
+![Easy](https://img.shields.io/badge/easy-11-success.svg)
 ![Medium](https://img.shields.io/badge/medium-3-orange.svg)
 ![Hard](https://img.shields.io/badge/hard-0-red.svg)
 
@@ -23,6 +23,7 @@ A collection of my solutions to LeetCode problems. Checkout my [profile](https:/
 - [27. Remove Element](./27-remove-element/)
 - [28. Find the Index of the First Occurrence in a String](./28-find-the-index-of-the-first-occurance-in-a-string/)
 - [136. Single Number](./136-single-number/)
+- [268. Missing Number](./268-missing-number/)
 
 ### Medium
 
