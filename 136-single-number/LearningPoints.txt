@@ -1,0 +1,12 @@
+The Bitwise operator: XOR
+
+A   B   A ^ B
+0   0   0
+0   1   1
+1   0   1
+1   1   0
+
+Properties:
+- A ^ A = 0
+- A ^ 0 = A
+- A ^ B ^ A = B // The "trick"
