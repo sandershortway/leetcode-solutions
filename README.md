@@ -4,8 +4,8 @@ A collection of my solutions to LeetCode problems. Checkout my [profile](https:/
 
 ## Progress
 
-![Problems Solved](https://img.shields.io/badge/solved-15-brightgreen.svg)
-![Easy](https://img.shields.io/badge/easy-11-success.svg)
+![Problems Solved](https://img.shields.io/badge/solved-14-brightgreen.svg)
+![Easy](https://img.shields.io/badge/easy-9-success.svg)
 ![Medium](https://img.shields.io/badge/medium-4-orange.svg)
 ![Hard](https://img.shields.io/badge/hard-0-red.svg)
 
@@ -22,14 +22,12 @@ A collection of my solutions to LeetCode problems. Checkout my [profile](https:/
 - [26. Remove Duplicates from Sorted Array](./26-remove-duplicates-from-sorted-array/)
 - [27. Remove Element](./27-remove-element/)
 - [28. Find the Index of the First Occurrence in a String](./28-find-the-index-of-the-first-occurance-in-a-string/)
-- [136. Single Number](./136-single-number/)
-- [268. Missing Number](./268-missing-number/)
 
 ### Medium
 
 - [2. Add Two Numbers](./2-add-two-numbers/)
 - [3. Longest Substring Without Repeating Characters](./3-longest-substring-without-repeating-characters/)
 - [5. Longest Palindromic Substring](./5-longest-palindromic-substring/)
-- [6. Zigzag Conversion](./6-zigzag-conversion/)
+- [8. String to Integer (atoi)](./8-string-to-integer/)
 
 ### Hard
