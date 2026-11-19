@@ -4,9 +4,9 @@ A collection of my solutions to LeetCode problems. Checkout my [profile](https:/
 
 ## Progress
 
-![Problems Solved](https://img.shields.io/badge/solved-16-brightgreen.svg)
+![Problems Solved](https://img.shields.io/badge/solved-17-brightgreen.svg)
 ![Easy](https://img.shields.io/badge/easy-9-success.svg)
-![Medium](https://img.shields.io/badge/medium-7-orange.svg)
+![Medium](https://img.shields.io/badge/medium-8-orange.svg)
 ![Hard](https://img.shields.io/badge/hard-0-red.svg)
 
 ## Solutions
@@ -29,6 +29,7 @@ A collection of my solutions to LeetCode problems. Checkout my [profile](https:/
 - [3. Longest Substring Without Repeating Characters](./3-longest-substring-without-repeating-characters/)
 - [5. Longest Palindromic Substring](./5-longest-palindromic-substring/)
 - [8. String to Integer (atoi)](./8-string-to-integer/)
+- [17. Letter Combinations of a Phone Number](./17-letter-combinations-of-a-phone-number/)
 - [46. Permutations](./46-permutations/)
 - [78. Subsets](./78-subsets/)
 - [90. Subsets II](./90-subsets-2/)
