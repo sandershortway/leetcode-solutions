@@ -1,6 +1,6 @@
 """37. Sudoku Solver"""
 
-import timeit
+from time import perf_counter
 
 
 def has_duplicates(l: list[str]) -> bool:
@@ -96,35 +96,35 @@ solved_board = [["5","3","4","6","7","8","9","1","2"],["6","7","2","1","9","5","
 
 # Test case 1
 board = [["5","3","4","6","7","8","9","1","2"],["6","7","2","1","9","5","3","4","8"],["1","9","8","3","4","2","5","6","7"],["8","5","9","7","6","1","4","2","3"],["4","2","6","8","5","3","7","9","1"],["7","1","3","9","2","4","8","5","6"],["9","6","1","5","3","7","2","8","4"],["2","8","7","4","1","9","6","3","5"],["3","4","5","2","8","6","1","7","9"]]
-start = timeit.timeit()
+start = perf_counter()
 sol.solveSudoku(board)
-end = timeit.timeit()
+end = perf_counter()
 print("Test case 1", 1000*(end - start), "ms")
 assert(is_valid(board) and is_full(board))
 assert(solved_board == board)
 
 # Test case 2
 board = [[".","3","4","6","7","8","9","1","2"],["6","7","2","1","9","5","3","4","8"],["1","9","8","3","4","2","5","6","7"],["8","5","9","7","6","1","4","2","3"],["4","2","6","8","5","3","7","9","1"],["7","1","3","9","2","4","8","5","6"],["9","6","1","5","3","7","2","8","4"],["2","8","7","4","1","9","6","3","5"],["3","4","5","2","8","6","1","7","9"]]
-start = timeit.timeit()
+start = perf_counter()
 sol.solveSudoku(board)
-end = timeit.timeit()
+end = perf_counter()
 print("Test case 2", 1000*(end - start), "ms")
 assert(is_valid(board) and is_full(board))
 assert(solved_board == board)
 
 # Test case 3
 board = [["5", "3", ".", ".", "7", ".", ".", ".", "."], ["6", ".", ".", "1", "9", "5", ".", ".", "."], [".", "9", "8", ".", ".", ".", ".", "6", "."], ["8", ".", ".", ".", "6", ".", ".", ".", "3"], ["4", ".", ".", "8", ".", "3", ".", ".", "1"], ["7", ".", ".", ".", "2", ".", ".", ".", "6"], [".", "6", ".", ".", ".", ".", "2", "8", "."], [".", ".", ".", "4", "1", "9", ".", ".", "5"], [".", ".", ".", ".", "8", ".", ".", "7", "9"]]
-start = timeit.timeit()
+start = perf_counter()
 sol.solveSudoku(board)
-end = timeit.timeit()
+end = perf_counter()
 print("Test case 3", 1000*(end - start), "ms")
 assert(is_valid(board) and is_full(board))
 assert(solved_board == board)
 
 # Test case 4
 board = [[".",".",".",".",".",".",".",".","."],[".","9",".",".","1",".",".","3","."],[".",".","6",".","2",".","7",".","."],[".",".",".","3",".","4",".",".","."],["2","1",".",".",".",".",".","9","8"],[".",".",".",".",".",".",".",".","."],[".",".","2","5",".","6","4",".","."],[".","8",".",".",".",".",".","1","."],[".",".",".",".",".",".",".",".","."]]
-start = timeit.timeit()
+start = perf_counter()
 sol.solveSudoku(board)
-end = timeit.timeit()
+end = perf_counter()
 print("Test case 4", 1000*(end - start), "ms")
 assert(is_valid(board) and is_full(board))
