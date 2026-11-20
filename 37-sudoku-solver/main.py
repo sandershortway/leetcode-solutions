@@ -72,7 +72,10 @@ class Solution:
             if not is_valid(board):
                 return False
 
-            for position, values in possible_values.items():
+            for position, values in sorted(
+                possible_values.items(),
+                key=lambda item: len(item[1]),
+            ):
                 row, col = position
                 if board[row][col] != ".":
                     continue
