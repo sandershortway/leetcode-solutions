@@ -39,7 +39,7 @@ def is_valid(board: list[list[str]]) -> bool:
 
     return True
 
-def possible_valid_values(board: list[list[str]]) -> dict[tuple[str, str], list[str]]:
+def possible_valid_values(board: list[list[str]]) -> dict[tuple[int, int], set[str]]:
     """Returns a dictionary with all possible values for empty cells."""
     possible_values = dict()
 
@@ -49,7 +49,7 @@ def possible_valid_values(board: list[list[str]]) -> dict[tuple[str, str], list[
             col_values = set([row[col_idx] for row in board if row[col_idx] != "."])
             
             if (board[row_idx][col_idx] == "."):
-                start_row, start_col = row_idx // 3, col_idx // 3
+                start_row, start_col = (row_idx // 3) * 3, (col_idx // 3) * 3
                 block_values = set([
                     board[row][col]
                     for row in range(start_row, start_row + 3)
@@ -67,22 +67,25 @@ class Solution:
         """
         possible_values = possible_valid_values(board)
 
-        if (not possible_values):
-            return
-
         def backtrack() -> bool:
+            """Returns whether the current board can be completed."""
             if not is_valid(board):
                 return False
 
             for position, values in possible_values.items():
+                row, col = position
+                if board[row][col] != ".":
+                    continue
+
                 for value in values:
-                    if (board[position[0]][position[1]] == "."):
-                        board[position[0]][position[1]] = value
-                        if backtrack():
-                            return True
-                        board[position[0]][position[1]] = "."
-            
+                    board[row][col] = value
+                    if backtrack():
+                        return True
+                    board[row][col] = "."
+
                 return False
+
+            return True
 
         if not backtrack():
             raise ValueError("Sudoku board has no solution")
